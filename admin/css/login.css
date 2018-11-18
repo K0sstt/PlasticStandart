@@ -1,0 +1,13 @@
+body{
+    background-color: #fbfcfc;
+}
+h1, h5{
+    text-align: center;
+}
+#login_form{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+#login_form input{
+    width: 100%;
+}

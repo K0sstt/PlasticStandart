@@ -1,0 +1,279 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Narrow';
+
+body{    
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+.navbar{
+    border: none;
+    background-color: #2c3e50;
+    margin-bottom: 0;
+}
+.navbar .navbar-nav {
+ display: inline-block;
+ float: none;
+ vertical-align: top;
+ /* You'd have to adjust this whenever an item is added to the nav-bar */
+ margin: 0;  
+}
+.navbar .navbar-collapse {
+ text-align: center;
+}
+.navbar-inverse .navbar-nav > li > a{
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 5vh;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #c0392b;
+}
+.navbar-inverse .navbar-nav > li > a:focus{
+    color: #c0392b;
+}
+h1{
+    font-size: 50px;    
+}
+.header{
+    padding: 10px 0;
+}
+.header img{
+    width: 150px;
+}
+.header h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.menu{
+    text-align: center;
+    background: #f1f1f1;
+    padding-bottom: 40px;
+}
+.menu .row .image{
+    text-align: center;
+}
+.menu h1{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.menu .img_link{
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 65px;
+    width: 180px;
+    height: 180px;
+}
+.menu .img_link:hover{
+    -webkit-filter: grayscale(0.8);
+    filter: grayscale(0.8);
+    text-decoration: none;
+    color: #fff;
+}
+.menu .img_link_caps{
+    background-image: url(../images/caps.png);
+}
+.menu .img_link_preforms{
+    background-image: url(../images/preforms.png);
+}
+.menu .img_link_handles{
+    background-image: url(../images/handles.png);
+}
+.menu .img_link_bottles{
+    background-image: url(../images/bottles.png);
+}
+.menu .img_link_service{
+    background-image: url(../images/service.png);
+}
+.partners h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.carousel{
+    min-height: 250px;
+    margin-bottom: 30px;
+}
+.carousel_img{
+    width: 150px;
+}
+.call_back h3{
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+}
+.call_back{
+    font-size: 22px;
+}
+#submit{
+    font-size: 20px;
+}
+footer{
+    background: #2c3e50;
+}
+.copyr{
+    padding-top: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 0 0 1px #000;
+}
+/*about*/
+#about{
+    min-height: 80vh;
+}
+#about h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#about p{
+    font-size: 18px;
+}
+/*tech*/
+.video_row{
+    margin: 30px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+iframe{
+    display: block;
+    max-width: 500px;
+    min-height: 300px;
+    margin: 5px 15px;
+}
+/*service*/
+.img-circle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.service_description{
+    
+}
+.service h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.service a{
+    text-decoration: underline;
+}
+.service strong{
+    font-size: 30px;
+}
+.service p{
+    font-size: 18px;
+}
+/*contacts*/
+.contacts{
+    min-height: 75vh;
+}
+.contacts .map iframe{
+    height: 480px;
+    min-width: 100%;
+}
+.aside{
+    text-align: center;
+}
+.aside h2, .aside h3{
+    font-weight: bold;
+}
+.aside .top h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.aside .top p, .aside .top a{
+    font-size: 20px;
+}
+.aside .bot h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.aside .bot p{
+    font-size: 18px;
+}
+/*logo*/
+.logo .top h1, .logo .bot h2{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.logo .bot h2{
+    font-size: 40px;
+}
+.logo .top p, .logo .bot p{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.logo .bot iframe{
+    padding-bottom: 20px;
+}
+/*caps*/
+.caps .top{
+    text-align: center;
+}
+.caps .top img{
+    box-shadow: 0 0 2px #a7a7a7;
+    cursor: pointer;
+    height: 180px;
+    width: 180px;
+}
+.caps .top h1{
+    font-weight: bold;
+}
+.caps .top h2{
+    font-size: 40px;
+}
+.caps .top .description p, .caps .top .description ul{
+    text-align: left;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.caps .carousel{
+    margin-bottom: 100px;
+}
+.caps .carousel h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+/*preforms*/
+.preforms .top{
+    text-align: center;
+}
+.preforms .top img{
+    box-shadow: 3px 3px 2px #a7a7a7;
+    width: 180px;
+}
+.preforms .top h1{
+    font-weight: bold;
+}
+.preforms .top h2{
+    font-size: 40px;
+}
+.preforms .top .description p, .preforms .top .description ul{
+    text-align: left;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.preforms .carousel{
+    margin-bottom: 100px;
+}
+.preforms .carousel h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+/*handles*/   
+.handles{
+    min-height: 100vh;
+    background-image: url(../images/razrobotka.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bxslider img{
+    height: 200px;
+}

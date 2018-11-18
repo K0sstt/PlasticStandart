@@ -1,0 +1,1 @@
+<a href="?page=add_essence&class=%class%" class="sm-text new"><span class="glyphicon glyphicon-plus xs-text" aria-hidden="true"></span> Добавить</a>
